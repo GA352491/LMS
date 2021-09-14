@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jet',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,7 +52,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'LMS.urls'
 AUTH_USER_MODEL = 'accounts.Account'
-
 
 TEMPLATES = [
     {
